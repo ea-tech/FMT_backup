@@ -1,0 +1,668 @@
+ @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+ @-webkit-keyframes bounce {
+ 0%, 20%, 50%, 80%, 100% {
+-webkit-transform: translateY(0);
+}
+ 40% {
+-webkit-transform: translateY(-30px);
+}
+ 60% {
+-webkit-transform: translateY(-15px);
+}
+}
+ @-moz-keyframes bounce {
+ 0%, 20%, 50%, 80%, 100% {
+-moz-transform: translateY(0);
+}
+ 40% {
+-moz-transform: translateY(-30px);
+}
+ 60% {
+-moz-transform: translateY(-15px);
+}
+}
+ @-o-keyframes bounce {
+ 0%, 20%, 50%, 80%, 100% {
+-o-transform: translateY(0);
+}
+ 40% {
+-o-transform: translateY(-30px);
+}
+ 60% {
+-o-transform: translateY(-15px);
+}
+}
+@keyframes bounce {
+ 0%, 20%, 50%, 80%, 100% {
+transform: translateY(0);
+}
+ 40% {
+transform: translateY(-30px);
+}
+ 60% {
+transform: translateY(-15px);
+}
+}
+.banner-drupal {
+	background: url(https://www.findmetechie.com/wp-content/themes/findmetechie/images/drupal-banner.jpg) no-repeat center;
+	background-size: cover;
+	font-family: 'Lato', sans-serif;
+	margin-top: 55px;
+}
+.banner-drupal.wordpress {
+	background: url(https://www.findmetechie.com/wp-content/themes/findmetechie/images/worderss-main-banner.jpg)no-repeat left top;
+	background-size: cover;
+	margin-bottom: 20px;
+}
+.drupal {
+	padding: 65px 0px 0 0px;
+}
+.drupal h1 {
+	color: #136592;
+	font-size: 45px;
+	line-height: 1.4em;
+	margin: 0px;
+	font-weight: bold;
+}
+.drupal h1 {
+	color: #136592;
+	font-size: 40px;
+	line-height: 1.4em;
+	margin-top: 0px;
+	font-weight: bold;
+}
+.drupal h1 span {
+    display: block;
+    font-size: 23px;
+}
+.drupal h2 {
+	color: #595959;
+	font-size: 20px;
+	margin-top: 0;
+}
+.wordpress .drupal h1 {
+	color: #0f4d76;
+	text-transform: uppercase;
+	line-height: 1em;
+}
+.wordpress .drupal h1 span {
+	display: block;
+	font-size: 23px;
+}
+.wordpress .drupal h2 {
+	color: #11517b;
+	font-size: 17px;
+}
+.drupal h2 span {
+	color: #000000;
+}
+.drupal a {
+	display: inline-block;
+	color: #fff;
+	font-size: 18px;
+	padding: 7px 63px;
+	border-radius: 3px;
+	margin: 35px 0 20px 0;
+	font-weight: 400;
+	background: #096bac;
+	-webkit-background: linear-gradient(to right, #096bac, #0f4d76);
+	-moz-background: linear-gradient(to right, #096bac, #0f4d76);
+	-o-background: linear-gradient(to right, #096bac, #0f4d76);
+	-ms-background: linear-gradient(to right, #096bac, #0f4d76);
+	background: linear-gradient(to right, #096bac, #0f4d76);
+}
+.drupal a:hover, .drupal a:focus {
+	color: #fff;
+	text-decoration: none;
+	background: #0f4d76;
+	-webkit-background: linear-gradient(to right, #0f4d76, #096bac);
+	-moz-background: linear-gradient(to right, #0f4d76, #096bac);
+	-o-background: linear-gradient(to right, #0f4d76, #096bac);
+	-ms-background: linear-gradient(to right, #0f4d76, #096bac);
+	background: linear-gradient(to right, #0f4d76, #096bac);
+}
+.quick_form {
+	width: 270px;
+	float: right;
+	background-color: rgba(255, 255, 255, .85);
+	padding: 15px;
+	margin: 20px 0;
+	box-shadow: 0 0 4px rgba(0, 0, 0, .3)
+}
+.visual_design {
+	padding: 60px 0 40px;
+}
+.quick_form h2 {
+	font-size: 20px;
+	line-height: 1.4em;
+	margin-top: 0px;
+	font-weight: 600;
+	color: #0f4d76;
+}
+.quick_form .form-group {
+	margin-bottom: 8px;
+	text-align: center;
+}
+.quick_form .form-control {
+	border: 1px solid #b0b0b0;
+	font-size: 14px;
+	background: transparent;
+	color: #909090;
+	border-radius: 0;
+	height: 34px;
+}
+.quick_form .form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+ color: #909090;
+}
+.quick_form .form-control::-moz-placeholder { /* Firefox 19+ */
+ color: #909090;
+}
+.quick_form .form-control:-ms-input-placeholder { /* IE 10+ */
+ color: #909090;
+}
+.quick_form .form-control:-moz-placeholder { /* Firefox 18- */
+ color: #909090;
+}
+placeholder { /* Firefox 18- */
+	color: #fff;
+}
+.quick_form textarea.form-control {
+	height: 60px;
+}
+.quick_form .google-verify {
+	text-align: center;
+}
+.quick_form .google-verify img {
+	max-width: 180px;
+	margin: 0 auto;
+}
+.quick_form .btn-get-quate-ror {
+	display: inline-block;
+	color: #fff;
+	background: #5bace1;
+	border: 1px solid #5bace1;
+	font-size: 13px;
+	padding: 5px 20px;
+	border-radius: 3px;
+	margin: 0px auto;
+	font-weight: 400;
+}
+.quick_form .btn-get-quate-ror:hover {
+	display: inline-block;
+	background: #0f4d76;
+	border: 1px solid #0f4d76;
+	color: #fff;
+}
+.hire_perfect_ux {
+	font-family: 'Lato', sans-serif;
+	background-color: #f2f2f2;
+	float: left;
+	width: 100%;
+	background-image: url("https://www.findmetechie.com/wp-content/themes/findmetechie/images/drupalServices.jpg");
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-size: 47%;
+	min-height: 335px;
+}
+.wordpress.hire_perfect_ux {
+	background-image: url("https://www.findmetechie.com/wp-content/themes/findmetechie/images/wordpress-banner.jpg");
+}
+.hire_perfect_ux .do_more {
+	width: 50%;
+	vertical-align: middle;
+	position: relative;
+	z-index: 99;
+	justify-content: center;
+	align-items: center;
+	float: left;
+}
+.hire_perfect_ux .bg_red img {
+	object-fit: cover;
+	height: 353px;
+}
+.hire_perfect_ux .bg_red p {
+	color: #fff;
+	font-size: 65px;
+	line-height: 1em;
+}
+.hire_perfect_ux .domore_content {
+	padding: 40px 0;
+	font-family: 'Lato', sans-serif;
+}
+.hire_perfect_ux .domore_content h2 {
+	color: #0f4d76;
+	font-weight: 400;
+	margin-bottom: 20px;
+	font-size: 30px;
+	margin-top: 0;
+}
+.hire_perfect_ux .domore_content h3 {
+	color: #636363;
+	font-weight: 400;
+	margin-bottom: 5px;
+	font-size: 25px;
+	margin-top: 0;
+	padding-left: 40px;
+	background: url(https://www.findmetechie.com/wp-content/themes/findmetechie/images/check_ux.png) no-repeat;
+}
+.hire_perfect_ux .domore_content p {
+	color: #636363;
+	padding-left: 40px;
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+.ux-image {
+	text-align: center;
+	padding: 20px 0;
+}
+.ux-image img {
+	max-width: 300px;
+}
+.get_touch {
+	padding: 40px 0;
+}
+.get_touch h2 {
+	color: #0f4d76;
+	padding: 0;
+	margin: 0 0 20px 0;
+	font-size: 28px;
+	font-weight: 600;
+}
+.get_touch p {
+	font-size: 14px;
+	color: #585858;
+	line-height: 1.7em;
+}
+.get_touch p a {
+	color: #000000;
+	text-decoration: underline;
+}
+.width_get_touch {
+	width: 20%;
+	float: left;
+	padding: 0 10px;
+	margin-bottom: 20px;
+}
+.inner_width_shadow {
+	box-shadow: 0px 0 8px rgba(4, 4, 4, .1);
+	width: 100%;
+	float: left;
+	padding: 10px;
+	min-height: 333px;
+}
+.get_touch_icon {
+	display: block;
+	background: url(https://www.findmetechie.com/wp-content/themes/findmetechie/images/icon-ux-info.png);
+	background-repeat: no-repeat;
+	height: 78px;
+	width: 78px;
+	margin: 8px auto;
+}
+.get_touch .row-custom {
+	margin-right: -10px;
+	margin-left: -10px;
+}
+.get_touch_icon.first_icon {
+	background-position: top left;
+}
+.get_touch_icon.second_icon {
+	background-position: top 0 left -100px;
+	width: 92px;
+}
+.get_touch_icon.third_icon {
+	background-position: top 0 left -208px;
+}
+.get_touch_icon.fourth_icon {
+	background-position: top 0 left -314px;
+	width: 89px;
+}
+.get_touch_icon.fifth_icon {
+	background-position: top 0 left -426px;
+}
+.bg_black {
+	color: #080807;
+	background: #0f4d76;
+	background: linear-gradient(to right, #72d9e9, #f2fafd);
+	background-image: url(https://www.findmetechie.com/wp-content/themes/findmetechie/images/form_bg.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 50px 0;
+	position: relative;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+}
+.bg_red_1 {
+	color: #080807;
+	background: #0f4d76;
+	padding: 40px 0;
+	position: relative;
+	font-family: 'Lato', sans-serif;
+}
+.bg_red_1 h2 {
+	color: #fff;
+	font-weight: 700;
+	margin-bottom: 20px;
+	font-size: 30px;
+	margin-top: 0;
+}
+.z-index {
+	position: relative;
+	z-index: 9999;
+}
+.layer {
+	background-color: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.hire_perfect_ux .domore_content h2 {
+	font-size: 25px;
+}
+.bg_black h2 {
+	color: #fff;
+	font-weight: 700;
+	margin-bottom: 20px;
+	font-size: 30px;
+	margin-top: 0;
+}
+.bg_black p {
+	color: #fff !important;
+	font-size: 18px;
+}
+.bg_black form {
+	margin-top: 50px;
+}
+.width_3 {
+	width: 22%;
+	padding-right: 10px;
+	float: left;
+	box-sizing: border-box;
+}
+.width_2 {
+	width: 12%;
+	padding-right: 10px;
+	float: left;
+	box-sizing: border-box;
+}
+.send_requirement {
+	border-radius: 0;
+	border: 1px solid #fff;
+ -webkit-transition: all .5s ease-in;
+ transition: all .5s ease-in;
+	box-shadow: none;
+	font-size: 18px;
+	color: #000;
+}
+.send_requirement:focus {
+	box-shadow: none;
+}
+.btn-send-ror, .build-your-team {
+	background-color: #0f4d76;
+	box-shadow: none;
+	border-radius: 0;
+	padding: 9px 8px;
+	font-size: 17px;
+	color: #fff;
+	height: 43px;
+	border: 1px solid #0f4d76;
+	width: 148px;
+}
+.featured_techei .featured_techei_img {
+	overflow: hidden;
+	height: 178px;
+	border-radius: 50%;
+	width: 178px;
+	margin: 10px auto;
+}
+.psd_drupal {
+	height: 640px;
+	background: url(https://www.findmetechie.com/wp-content/themes/findmetechie/images/drupal-psd.jpg) no-repeat top left;
+	padding: 25px;
+}
+.background_proces-first {
+	width: 100%;
+	float: left;
+	font-family: 'Lato', sans-serif;
+}
+.psd_drupal h2 {
+	font-size: 25px;
+	color: #3e6f6b;
+}
+.psd_drupal p {
+	color: #3e7f7a;
+	font-size: 18px;
+	margin-top: 25px;
+}
+.shopping-cart {
+	background: url(https://www.findmetechie.com/wp-content/themes/findmetechie/images/shopping-cart.jpg) no-repeat top left;
+	height: 310px;
+	padding: 25px;
+	margin-bottom: 20px
+}
+.shopping-cart h2 {
+	font-size: 25px;
+	color: #8a6a66;
+}
+.shopping-cart p {
+	color: #b4827c;
+	font-size: 18px;
+	max-width: 300px;
+	margin-top: 25px;
+}
+.theme-development {
+	background: url(https://www.findmetechie.com/wp-content/themes/findmetechie/images/drupal-theme.jpg) no-repeat top left;
+	height: 310px;
+	padding: 25px;
+}
+.theme-development h2 {
+	font-size: 25px;
+	color: #924e46;
+}
+.theme-development p {
+	color: #c37759;
+	font-size: 18px;
+	max-width: 250px;
+	margin-top: 25px;
+}
+.cms-development {
+	background: url(https://www.findmetechie.com/wp-content/themes/findmetechie/images/drupal-cms.jpg) no-repeat top left;
+	height: 310px;
+	padding: 25px;
+}
+.wordpress .cms-development {
+	background-image: url(https://www.findmetechie.com/wp-content/themes/findmetechie/images/wordpress-cms.jpg);
+}
+.cms-development h2 {
+	font-size: 25px;
+	color: #181a21;
+}
+.cms-development p {
+	color: #968a8a;
+	font-size: 18px;
+	max-width: 250px;
+	margin-top: 25px;
+}
+.wordpress .theme-development h2, .wordpress .cms-development h2, .wordpress .shopping-cart h2, .wordpress .psd_drupal h2 {
+	font-size: 23px;
+}
+.dru-pad-10 {
+	padding: 0 10px;
+}
+.row-1 {
+	margin-right: -10px;
+	margin-left: -10px;
+}
+.drupal-work-process {
+	background: url(https://www.findmetechie.com/wp-content/themes/findmetechie/images/drupal-work-process.jpg) no-repeat top center;
+	width: 100%;
+	float: left;
+	margin: 40px 0 40px 0;
+	font-family: 'Lato', sans-serif;
+}
+.drupal-work-process h2 {
+	text-align: center;
+	margin: 75px 0 50px 0;
+	color: #fff;
+	font-size: 40px;
+}
+.drup-step-block {
+	min-height: 300px;
+	margin-bottom: 20px;
+	box-shadow: 0 0 29px rgba(0, 0, 0, .1);
+}
+/*.drup-step-block img{
+	height: 155px;
+	object-fit: cover;
+	object-position: center;
+
+}*/
+.drup-step-block h3 {
+	color: #0f4d76;
+	font-size: 20px;
+	text-align: center;
+	font-weight: 600;
+	padding: 25px 20px 0 20px;
+	margin: 0;
+}
+.drup-step-block p {
+	color: #959595;
+	font-size: 16px;
+	text-align: center;
+	font-weight: 400;
+	padding: 14px 15px 20px 14px;
+	margin: 0;
+}
+.hire-drupal h2 {
+	color: #0f4d76;
+	padding: 0;
+	margin: 0 0 20px 0;
+	font-size: 28px;
+	font-weight: 600;
+}
+ @media(max-width: 1199px) {
+ .quick_form {
+ padding: 30px 20px;
+ background-position: 0;
+}
+ .drupal {
+ padding: 96px 32px;
+}
+ .width_get_touch {
+ width: 33%;
+}
+.hire_perfect_ux .domore_content h3 {
+ font-size: 20px;
+}
+.hire_perfect_ux .domore_content p {
+ font-size: 14px;
+}
+.hire_perfect_ux {
+background-position: right center;
+}
+.width_3 {
+ width: 50%;
+ padding-right: 10px;
+}
+.banner-drupal.wordpress {
+background-position: center;
+}
+}
+ @media (max-width: 991px) {
+.psd_drupal, .shopping-cart {
+ height: auto;
+ background-image: none;
+ background-color: #94dad5;
+ margin-bottom: 20px;
+}
+ .theme-development {
+ background-color: #ffcab8;
+}
+.cms-development {
+ background-color: #ebe8e8;
+}
+.wordpress .cms-development {
+ background: #ebe8e8;
+}
+.shopping-cart {
+ background:#f0dbd8;
+}
+.theme-development, .cms-development, .shopping-cart {
+ margin-bottom: 20px;
+ height: auto;
+ background-image: none;
+}
+.theme-development p, .cms-development p, .shopping-cart p {
+ width: 100%;
+ max-width: 100%;
+}
+.mgt-10 {
+ margin-top: 0px;
+}
+}
+ @media (max-width: 767px) {
+ .quick_form {
+ float: none;
+ margin: 20px auto;
+}
+.drupal h2 {
+ font-size: 16px;
+}
+ .background_proces-first h2 {
+ font-size: 20px;
+ margin-top: 0px;
+}
+ .background_proces-first p {
+ font-size: 16px;
+ font-weight: 400;
+}
+ .get_touch h2, .hire-drupal h2 {
+ font-size: 19px;
+}
+ .drupal {
+ padding: 30px;
+}
+ .banner-drupal {
+ background-position: right;
+}
+ .width_get_touch {
+ width: 100%;
+}
+ .inner_width_shadow {
+ min-height: auto;
+}
+ .width_3 {
+ width:100%;
+}
+ .width_2 {
+ width: 50%;
+}
+ .btn-send-ror {
+ padding: 5px 29px;
+ font-size: 14px;
+}
+ .width_3 .form-control {
+ height: 38px;
+ font-size: 14px;
+}
+.hire_perfect_ux .do_more {
+ width: 100%;
+}
+.hire_perfect_ux .bg_red img {
+ object-fit: contain;
+ height: auto;
+}
+.hire_perfect_ux {
+ background-position: top center;
+ background-size: auto 220px;
+ padding-top: 220px;
+}
+.drupal h1 {
+ font-size: 30px;
+}
+.btn-send-ror {
+float:left;
+}
+}
